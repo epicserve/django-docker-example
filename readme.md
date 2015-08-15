@@ -27,7 +27,8 @@ Django Docker Example
         $ make start
 
 6. Open a new terminal tab and do the following to open the site in your browser.
-
+        
+        $ cd ~/django-docker-example
         $ eval "$(docker-machine env django-docker)"
         $ make open_browser
 
